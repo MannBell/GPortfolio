@@ -46,12 +46,20 @@ h1 {
 }
 
 .info {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 1.5em;
+	height: 1.5em;
+	border: 3px solid red;
+	border-radius: 50%;
 	color:red;
 	cursor: pointer;
 }
 
 .info:hover {
 	color:#095;
+	border-color: #095;
 	cursor: pointer;
 }
 
