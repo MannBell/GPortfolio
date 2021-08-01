@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style.css">
+	<title>Portfolio Graphique</title>
+</head>
+<body>
+	<h1 class="title">Portfolio Graphique <span id="toggle" class="info">[i]</span></h1>
+	<div class="pics_wrapper">
+		<h2 class="title">Des logos</h2>
+		<!-- #pic1 -->
+		<a 
+			class="img"
+			href="./pics/1.png">
+			<img
+				src="./pics/1.png"
+				alt="graphic work"
+			/>
+		</a>
+		<!-- #pic2 -->
+		<a 
+			class="img"
+			href="./pics/2.png">
+			<img
+				src="./pics/2.png"
+				alt="graphic work"
+			/>
+		</a>
+		<!-- #pic3 -->
+		<a 
+			class="img"
+			href="./pics/3.png">
+			<img
+				src="./pics/3.png"
+				alt="graphic work"
+			/>
+		</a>
+		<!-- #pic4 -->
+		<a 
+			class="img"
+			href="./pics/4.png">
+			<img
+				src="./pics/4.png"
+				alt="graphic work"
+			/>
+		</a>
+		<!-- #pic5 -->
+		<a 
+			class="img"
+			href="./pics/5.png">
+			<img
+				src="./pics/5.png"
+				alt="graphic work"
+			/>
+		</a>
+		<h2 class="title">Art Graphique</h2>
+		<!-- #pic6 -->
+		<a 
+			class="img"
+			href="./pics/6.jpg">
+			<img
+				src="./pics/6.jpg"
+				alt="graphic work"
+			/>
+		</a>
+		<!-- #pic7 -->
+		<a 
+			class="img"
+			href="./pics/7.jpg">
+			<img
+				src="./pics/7.jpg"
+				alt="graphic work"
+			/>
+		</a>
+	</div>
+	<p id="notice" class="notice">
+		Ces travaux ne sont que quelques-uns des nombreux travaux que j'ai terminés
+	</p>
+	<script>
+		const toggle = document.getElementById("toggle");
+		toggle.addEventListener("click", () => {
+			const notice = document.getElementById("notice");
+			notice.classList.toggle("visible");
+		});
+	</script>
+</body>
+</html>
